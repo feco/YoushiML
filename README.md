@@ -16,23 +16,24 @@ There is also a playable version for you to try: PlayableVersion.py
 ‘Q’ to go left and ‘D’ to go right
 
 Tf-agents:
-Notebook: YoushiTFAgent.ipynb
-Saved network: myPolicyHard
-Script to play: PlaySavedQnetHard.py
+- Notebook: YoushiTFAgent.ipynb
+- Saved network: myPolicyHard
+- Script to play: PlaySavedQnetHard.py
 
 First try inspired from a book.
 DQN with the same replay buffer and loss function as Tf-agents
-Notebook: DQLBook.ipynb
-Saved network: kerasDQL.h5
-Script to play: PlayKerasModelHard.py
+- Notebook: DQLBook.ipynb
+- Saved network: kerasDQL.h5
+- Script to play: PlayKerasModelHard.py
+
 There is others version of this: 
 - With a prioritized experience replay: DQLBookPER.ipynb
 - With stacked frame: DQLBookStacked.ipynb / PlayKerasModelHardStacked.py
 
 I found another tutorial on PyLessons website, so I tried with that: 
-Notebook: PyLessons.ipynb
-Saved network: models
-Script to play: PlayPyLessons.py
+- Notebook: PyLessons.ipynb
+- Saved network: models
+- Script to play: PlayPyLessons.py
 
 
 With this, the TF-agents work perfectly well and play better than any human can do (at least those who tried the game^^)
