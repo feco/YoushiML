@@ -3,17 +3,17 @@ Goal of the project
 I made a game way back in high school about a boy, a mountain and some trees. The boy glide on his sledge and the player must avoid the trees by going to the left or the right.
 About a year ago I caught an interest in machine learning and more specifically in Reinforcement Learning. So, I got the idea to make an AI for this game.
 
-
+![Image of Yaktocat](https://raw.githubusercontent.com/feco/YoushiML/master/Youshi.png)
 
 I settled on DQN, which seemed more than enough for the project. With some book and online tutorials, I made an agent to play the game with Keras and Tensorflow and so far, no results.
-Then I discovered Google’s tf-agents. To my surprise, it worked. The QNetwork agent worked right away without even fiddling with parameters.
+Then I discovered Googleâ€™s tf-agents. To my surprise, it worked. The QNetwork agent worked right away without even fiddling with parameters.
 
 I tried to implement the tf-agents myself and nothing works. The agent always goes all the way to one side and wait to die.
 
 For each implementation you can find the notebook with the implementation, a trained Keras network saved and a script to play with this saved network.
 
 There is also a playable version for you to try: PlayableVersion.py
-‘Q’ to go left and ‘D’ to go right
+â€˜Qâ€™ to go left and â€˜Dâ€™ to go right
 
 Tf-agents:
 Notebook: YoushiTFAgent.ipynb
